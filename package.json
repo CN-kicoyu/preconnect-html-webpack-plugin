@@ -1,0 +1,33 @@
+{
+  "name": "preconnect-html-webpack-plugin",
+  "version": "1.0.0",
+  "description": "A webpack plugin for injecting &lt;link rel=\"preconnect\"> into HtmlWebpackPlugin pages",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CN-kicoyu/preconnect-html-webpack-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "html-webpack-plugin",
+    "preconnect"
+  ],
+  "author": "kicoyu <kicoyu@126.com>",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "camelcase": "^5.3.1"
+  },
+  "peerDependencies": {
+    "html-webpack-plugin": "^3.0.0 || ^4.0.0",
+    "webpack": "^1.0.0 || ^2.0.0 || ^3.0.0 || ^4.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/CN-kicoyu/preconnect-html-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/CN-kicoyu/preconnect-html-webpack-plugin#readme"
+}
